@@ -8,3 +8,10 @@ The app serves as a centralized dashboard for logging, viewing, executing, and m
 
 Development Approach
 Development occurred in VS Code on Windows, starting with MySQL schema setup using mysql-connector for connectivity. Key steps included designing tables for queries/storage, implementing password hashing with hashlib for basic authentication, and using pandas to process/execute SQL queries pulled from the database. Recent enhancements involved schema tweaks (e.g., converting integer to varchar columns, handling primary keys/auto-increment) and building interactive Streamlit pages for query fetching, execution, and result visualization.
+
+Setup and running
+Installation & Setup: Steps to clone the repo, create a virtual environment, install requirements, and ensure MySQL is running and accessible.​
+
+Database Configuration: Instructions to create the database and tables, update connection details, and optionally load initial data (e.g., past queries from CSV into MySQL).​
+
+How to Run: Exact Streamlit commands to run register.py and login.py, plus a short note on the login flow (register, then log in, then redirected as Client or Support
